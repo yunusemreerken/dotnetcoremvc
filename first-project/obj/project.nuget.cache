@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HD8tH99tpAKaZ9W+UFBXwLxS5hnPwBVzegzDk1r1B2mbnohrVYI69oPkgT0dgkfxsp6XfXGXRAUAQqYEqitXqw==",
+  "dgSpecHash": "eUDzALMEke3VpfWsjT38tZ4W1A6HY8ijndwuowgoeP17sYZs/UtF+bgKcQrcYv1hKhsmz/MubN19QBmAbLnj7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MyAsus\\source\\repos\\first-project\\first-project\\first-project.csproj",
+  "projectFilePath": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\first-project\\first-project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MyAsus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\MyAsus\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
@@ -60,6 +60,7 @@
     "C:\\Users\\MyAsus\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\MyAsus\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\MyAsus\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
+    "C:\\Users\\MyAsus\\.nuget\\packages\\stigschmidtnielsson.extensions.ienumerable\\0.1.4\\stigschmidtnielsson.extensions.ienumerable.0.1.4.nupkg.sha512",
     "C:\\Users\\MyAsus\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\MyAsus\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\MyAsus\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
@@ -104,7 +105,7 @@
     "C:\\Users\\MyAsus\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\MyAsus\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
     "C:\\Users\\MyAsus\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
-    "C:\\Users\\MyAsus\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\MyAsus\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512",
     "C:\\Users\\MyAsus\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
     "C:\\Users\\MyAsus\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
     "C:\\Users\\MyAsus\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
@@ -134,5 +135,16 @@
     "C:\\Users\\MyAsus\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\MyAsus\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'StigSchmidtNielsson.Extensions.IEnumerable 0.1.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "StigSchmidtNielsson.Extensions.IEnumerable",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

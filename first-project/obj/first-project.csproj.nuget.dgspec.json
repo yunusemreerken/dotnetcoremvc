@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MyAsus\\source\\repos\\first-project\\first-project\\first-project.csproj": {}
+    "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\first-project\\first-project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MyAsus\\source\\repos\\first-project\\first-project\\first-project.csproj": {
+    "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\first-project\\first-project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MyAsus\\source\\repos\\first-project\\first-project\\first-project.csproj",
+        "projectUniqueName": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\first-project\\first-project.csproj",
         "projectName": "first-project",
-        "projectPath": "C:\\Users\\MyAsus\\source\\repos\\first-project\\first-project\\first-project.csproj",
+        "projectPath": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\first-project\\first-project.csproj",
         "packagesPath": "C:\\Users\\MyAsus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MyAsus\\source\\repos\\first-project\\first-project\\obj\\",
+        "outputPath": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\first-project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MyAsus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,6 +69,14 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.2, )"
+            },
+            "StigSchmidtNielsson.Extensions.IEnumerable": {
+              "target": "Package",
+              "version": "[0.1.4, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [

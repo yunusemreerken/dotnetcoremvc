@@ -928,6 +928,15 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "StigSchmidtNielsson.Extensions.IEnumerable/0.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net40-client/StigSchmidtNielsson.Extensions.IEnumerable.dll": {}
+        },
+        "runtime": {
+          "lib/net40-client/StigSchmidtNielsson.Extensions.IEnumerable.dll": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1622,11 +1631,11 @@
           "ref/netstandard1.0/System.Resources.ResourceManager.dll": {}
         }
       },
-      "System.Runtime/4.3.0": {
+      "System.Runtime/4.3.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0"
+          "Microsoft.NETCore.Platforms": "1.1.1",
+          "Microsoft.NETCore.Targets": "1.1.3"
         },
         "compile": {
           "ref/netstandard1.5/System.Runtime.dll": {}
@@ -3755,6 +3764,18 @@
         "runtime.native.system.nuspec"
       ]
     },
+    "StigSchmidtNielsson.Extensions.IEnumerable/0.1.4": {
+      "sha512": "At00l1dcuI9sHMANyfMZ+Xc9UqvSIsLiRN93LIwotJOuZegdd0QB+iA8SHy0kOaXE20Pd50ICxoF5ZVAAkywvQ==",
+      "type": "package",
+      "path": "stigschmidtnielsson.extensions.ienumerable/0.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40-client/StigSchmidtNielsson.Extensions.IEnumerable.dll",
+        "stigschmidtnielsson.extensions.ienumerable.0.1.4.nupkg.sha512",
+        "stigschmidtnielsson.extensions.ienumerable.nuspec"
+      ]
+    },
     "System.Collections/4.3.0": {
       "sha512": "3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
       "type": "package",
@@ -5773,10 +5794,10 @@
         "system.resources.resourcemanager.nuspec"
       ]
     },
-    "System.Runtime/4.3.0": {
-      "sha512": "JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+    "System.Runtime/4.3.1": {
+      "sha512": "abhfv1dTK6NXOmu4bgHIONxHyEqFjW8HwXPmpY9gmll+ix9UNo4XDcmzJn6oLooftxNssVHdJC1pGT9jkSynQg==",
       "type": "package",
-      "path": "system.runtime/4.3.0",
+      "path": "system.runtime/4.3.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5861,7 +5882,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.runtime.4.3.0.nupkg.sha512",
+        "system.runtime.4.3.1.nupkg.sha512",
         "system.runtime.nuspec"
       ]
     },
@@ -7346,7 +7367,9 @@
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.3",
       "Microsoft.Extensions.Caching.SqlServer >= 5.0.1",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
+      "StigSchmidtNielsson.Extensions.IEnumerable >= 0.1.4",
+      "System.Runtime >= 4.3.1"
     ]
   },
   "packageFolders": {
@@ -7355,11 +7378,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MyAsus\\source\\repos\\first-project\\first-project\\first-project.csproj",
+      "projectUniqueName": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\first-project\\first-project.csproj",
       "projectName": "first-project",
-      "projectPath": "C:\\Users\\MyAsus\\source\\repos\\first-project\\first-project\\first-project.csproj",
+      "projectPath": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\first-project\\first-project.csproj",
       "packagesPath": "C:\\Users\\MyAsus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MyAsus\\source\\repos\\first-project\\first-project\\obj\\",
+      "outputPath": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\first-project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MyAsus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7417,6 +7440,14 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[5.0.2, )"
+          },
+          "StigSchmidtNielsson.Extensions.IEnumerable": {
+            "target": "Package",
+            "version": "[0.1.4, )"
+          },
+          "System.Runtime": {
+            "target": "Package",
+            "version": "[4.3.1, )"
           }
         },
         "imports": [
@@ -7440,5 +7471,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'StigSchmidtNielsson.Extensions.IEnumerable 0.1.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "StigSchmidtNielsson.Extensions.IEnumerable",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
