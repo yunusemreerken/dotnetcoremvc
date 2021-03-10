@@ -41,5 +41,62 @@ namespace first_project.Controllers
             }
             return View(obj);
         }
+        public IActionResult Edit(int id)
+        {
+            if (id==null || id==0)
+            {
+                return NotFound();
+            }
+            var obj = _db.Applicationtype.Find(id);
+            if( obj ==null)
+            {
+                return NotFound();
+            }
+            return View(obj);
+        }
+        //edit post
+
+        [HttpPost]
+        [AutoValidateAntiforgeryToken]
+        public IActionResult Edit(Applicationtype obj)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Applicationtype.Update(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(obj);
+        }
+
+        //delete get 
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            var obj = _db.Applicationtype.Find(id);
+            if (obj == null)
+            {
+                return NotFound();
+            }
+            return View(obj);
+        }
+        [HttpPost]
+        [AutoValidateAntiforgeryToken]
+        public IActionResult DeletePost(int? id)
+        {
+            var obj = _db.Applicationtype.Find(id);
+            if(obj == null)
+            {
+                return NotFound();
+            }
+            _db.Applicationtype.Remove(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+
+        }
+
     }
 }

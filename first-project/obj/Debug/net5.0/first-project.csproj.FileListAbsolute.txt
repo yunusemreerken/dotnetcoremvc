@@ -756,6 +756,7 @@ C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\bin\Debug\net5.0\Micros
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\bin\Debug\net5.0\StigSchmidtNielsson.Extensions.IEnumerable.dll
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\bin\Debug\net5.0\System.Composition.AttributedModel.dll
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\bin\Debug\net5.0\System.Composition.Convention.dll
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\bin\Debug\net5.0\System.Composition.Hosting.dll
@@ -832,7 +833,6 @@ C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\bin\Debug\net5.0\runtim
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\first-project.csprojAssemblyReference.cache
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\first-project.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\first-project.AssemblyInfoInputs.cache
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\first-project.AssemblyInfo.cs
@@ -847,6 +847,14 @@ C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\scoped
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\first-project.TagHelpers.input.cache
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\first-project.TagHelpers.output.cache
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\first-project.RazorCoreGenerate.cache
+C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\Razor\Views\Applicationtype\Create.cshtml.g.cs
+C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\Razor\Views\Applicationtype\Delete.cshtml.g.cs
+C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\Razor\Views\Applicationtype\Edit.cshtml.g.cs
+C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\Razor\Views\Applicationtype\Index.cshtml.g.cs
+C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\Razor\Views\Category\Create.cshtml.g.cs
+C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\Razor\Views\Category\Delete.cshtml.g.cs
+C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\Razor\Views\Category\Edit.cshtml.g.cs
+C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
@@ -862,9 +870,4 @@ C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\first-
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\ref\first-project.dll
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\first-project.pdb
 C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\first-project.genruntimeconfig.cache
-C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\bin\Debug\net5.0\StigSchmidtNielsson.Extensions.IEnumerable.dll
-C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\Razor\Views\Category\Create.cshtml.g.cs
-C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\Razor\Views\Applicationtype\Index.cshtml.g.cs
-C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\Razor\Views\Applicationtype\Create.cshtml.g.cs
-C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\Razor\Views\Category\Edit.cshtml.g.cs
-C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\Razor\Views\Category\Delete.cshtml.g.cs
+C:\Users\MyAsus\source\repos\dotnetcoremvc\first-project\obj\Debug\net5.0\first-project.csprojAssemblyReference.cache

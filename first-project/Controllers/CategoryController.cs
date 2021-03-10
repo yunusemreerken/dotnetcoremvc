@@ -21,8 +21,6 @@ namespace first_project.Controllers
         public IActionResult Index()
         {
             IEnumerable<Category> objList = _db.Category;
-
-
             return View(objList);
         }
         
@@ -95,10 +93,7 @@ namespace first_project.Controllers
             {
                 return NotFound();
             }
-
-
             return View(obj);
-
         }
 
         // post delete

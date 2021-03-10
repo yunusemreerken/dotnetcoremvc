@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfNc8eucjD0mnvfz+HuuuWAAAAAACAAAAAAAQZgAAAAEAACAAAACzK/PppomJiNHYX/d4148S4OCtGKJeP34rkJzJaZZDHAAAAAAOgAAAAAIAACAAAAA3OLe9w/M62+7DTa0utaDVs4PmRNlVD0FIj5JcbZZolYAAAADfmEuVwK+z7wyBudJO3sK8wHnx6+jqqTzj7E2XUdXaPG0n86fv3tRvhwtJDIeaBaZ18nx982uWkbe5MAesevHtdzzO1prxXL94rGpSn058eKG6NNQ/G1tFaCzOkgk5I9OX/HXrDbSNipWOmPq1wxzHucIWUUF0rGoU9mRxsXjcCkAAAACnXz9hoyWRvibmu+bL33cmPoy2f7j1XqXycM8qpkuL3912qTht1yagPzmSp6zz6hx8oe++gYrxD1drVpCnbGcX</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:first-projectdbserver.database.windows.net,1433%3bInitial Catalog=first-project_db%3bUser Id=adminuser%40first-projectdbserver%3bPassword=admin123%2a</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
