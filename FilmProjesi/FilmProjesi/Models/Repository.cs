@@ -20,5 +20,9 @@ namespace FilmProjesi.Models
         {
             films.Add(film);
         }
-    }
+        public static int Counter()
+        {
+            return films.Count();
+        }
+    } 
 }

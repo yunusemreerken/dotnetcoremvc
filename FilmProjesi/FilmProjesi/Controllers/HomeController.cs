@@ -11,7 +11,14 @@ namespace FilmProjesi.Controllers
     {
         public ViewResult Index()
         {
-            return View("Index");
+            int count = Repository.Counter();
+            if(count>0)
+            {
+                var liste = Repository.Films.Where(i => i.Imdb >= 5);
+                return View(liste);
+            }
+            return View();
+            
         }
         public ViewResult List()
         {
@@ -30,7 +37,8 @@ namespace FilmProjesi.Controllers
             if(ModelState.IsValid)
             {
                 Repository.AddFilm(film);
-                return View("Index");
+                var liste = Repository.Films.Where(i => i.Imdb >= 5);
+                return View("Index",liste);
             }
             //ekleme işlemini yapıyoruz
             return View();
