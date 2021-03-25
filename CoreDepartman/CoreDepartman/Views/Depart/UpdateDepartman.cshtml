@@ -1,0 +1,16 @@
+﻿@model CoreDepartman.Models.Departman
+@{
+    ViewData["Title"] = "UpdateDepartman";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+<br />
+<form asp-controller="Depart" asp-action="UpdateDepartman" class="form-group" method="post">
+    @Html.LabelFor(x => x.Id)
+    @Html.TextBoxFor(x => x.Id, new { @class = "form-control" })
+
+    @Html.LabelFor(x => x.DepartmanName)
+    @Html.TextBoxFor(x => x.DepartmanName, new { @class = "form-control" })
+    <br />
+    
+    <button class="btn btn-info">Departman Güncelle</button>
+</form>

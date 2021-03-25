@@ -1,0 +1,37 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<CoreAndFood.Data.Models.Food>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Food List</h2>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>id</th>
+        <th>food name</th>
+        <th>price</th>
+        <th>food stok</th>
+        <th>category name</th>
+        <th>food description</th>
+        <th>delete</th>
+        <th>update</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.FoodId</td>
+            <td>@item.FoodName</td>
+            <td>@item.Price</td>
+            <td>@item.Stock</td>
+            <td>@item.Category.CategoryName</td>
+            <td>@item.Description</td>
+            <td><a href="/Food/DeleteFood/@item.FoodId" class=" btn btn-danger">Delete</a></td>
+            <td><a href="/Food/GetFood/@item.FoodId" class=" btn btn-success">Update</a></td>
+        </tr>
+    }
+</table>
+@Html.PagedListPager((IPagedList)Model,page=>Url.Action("Index", new { page }))
+<a href="/Food/AddFood" class=" btn btn-primary">new food</a>

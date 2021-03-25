@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MyAsus\\source\\repos\\webapplication\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\webapplication\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MyAsus\\source\\repos\\webapplication\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\webapplication\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MyAsus\\source\\repos\\webapplication\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\webapplication\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\MyAsus\\source\\repos\\webapplication\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\webapplication\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\MyAsus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MyAsus\\source\\repos\\webapplication\\WebApplication1\\obj\\",
+        "outputPath": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\webapplication\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MyAsus\\AppData\\Roaming\\NuGet\\NuGet.Config",

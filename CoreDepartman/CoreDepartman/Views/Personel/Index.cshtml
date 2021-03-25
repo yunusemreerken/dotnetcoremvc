@@ -1,0 +1,41 @@
+﻿@using CoreDepartman.Models
+@model List<Personel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<br />
+<h2>Personels</h2>
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>City</th>
+        <th>Departman</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+        <th>Detaylar</th>
+
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.Id</td>
+            <td>@x.Name</td>
+            <td>@x.Surname</td>
+            <td>@x.City</td>
+            <td>@x.Departman.DepartmanName</td>
+            <td><a href="/Personel/Delete/@x.Id" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Personel/Update/@x.Id" class="btn btn-success">Güncelle</a></td>
+            <td><a href="#" class="btn btn-warning">Detaylar</a></td>
+        </tr>
+    }
+
+
+</table>
+
+<a href="/Personel/NewPersonel" class="btn btn-primary">Personel Ekle</a>
