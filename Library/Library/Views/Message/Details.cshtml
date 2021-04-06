@@ -1,0 +1,73 @@
+﻿@model Library.Data.Models.Message
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header card-header-primary">
+                <h4 class="card-title">Details Message</h4>
+            </div>
+            <div class="card-body">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.Name, new { @class = "bmd-label-floating" })
+
+                            @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="bmd-label-floating">Email</label>
+                            @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="bmd-label-floating">Status</label>
+                            @Html.TextBoxFor(x => x.Status, new { @class = "form-control" })
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label class="bmd-label-floating">Your Message</label>
+                            @Html.TextAreaFor(x => x.YourMessage, new { @class = "form-control",@rows = "6" })
+                        </div>
+                    </div>
+                    
+
+                </div>
+                
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    @*<div class="col-md-4">
+        <div class="card card-profile">
+            <div class="card-avatar">
+                <a href="javascript:;">
+                    <img class="img" src="@Model.CoverImage">
+                </a>
+            </div>
+            <div class="card-body">
+                <h6 class="card-category text-gray">
+                    @Model.BookName &&                    @Model.PublisherName
+                </h6>
+                <h4 class="card-title">@Model.Author</h4>
+                <p class="card-description">
+                </p>
+                <a href="javascript:;" class="btn btn-primary btn-round">Buy</a>
+            </div>
+        </div>
+    </div>*@
+</div>

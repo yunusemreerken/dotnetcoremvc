@@ -1,0 +1,49 @@
+﻿
+@model Library.Data.Models.Category
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header card-header-primary">
+                <h4 class="card-title">Category Book</h4>
+            </div>
+            <div class="card-body">
+                @using (Html.BeginForm("Add", "Category", FormMethod.Post))
+                {
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Category Name</label>
+                                @Html.TextBoxFor(x => x.CategoryName, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Description</label>
+                                @Html.TextBoxFor(x => x.CategoryDescription, new { @class = "form-control" })
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Status</label>
+                                @Html.TextBoxFor(x => x.Status, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <button type="submit" class="btn btn-primary pull-right">Add</button>
+                    <div class="clearfix"></div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

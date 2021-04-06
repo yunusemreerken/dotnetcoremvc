@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Library.Data.Models.Category>
+
+<h1>Kategoriler</h1>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li><a href="/Default/Book/@item.CategoryId">@item.CategoryName</a></li>
+
+    }
+</ul>

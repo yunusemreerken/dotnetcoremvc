@@ -1,0 +1,68 @@
+﻿@model Library.Data.Models.Member
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header card-header-primary">
+                <h4 class="card-title">Add Member</h4>
+            </div>
+            <div class="card-body">
+                @using (Html.BeginForm("Add", "Member", FormMethod.Post))
+                {
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Member Name</label>
+                                @Html.TextBoxFor(x => x.Member_Name, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Email</label>
+                                @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Identity Number</label>
+                                @Html.TextBoxFor(x => x.IdentityNumber, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Telephone</label>
+                                @Html.TextBoxFor(x => x.Telephone, new { @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Password</label>
+                                @Html.TextBoxFor(x => x.Password, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Image</label>
+                                @Html.TextBoxFor(x => x.Image, new { @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <button type="submit" class="btn btn-primary pull-right">Add Member</button>
+                    <div class="clearfix"></div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

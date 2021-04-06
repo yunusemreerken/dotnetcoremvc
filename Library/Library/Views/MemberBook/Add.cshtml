@@ -1,0 +1,47 @@
+﻿@model Library.Data.Models.MemberBook
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header card-header-primary">
+                <h4 class="card-title">Loaned Book</h4>
+            </div>
+            <div class="card-body">
+                @using (Html.BeginForm("Add", "MemberBook", FormMethod.Post))
+                {
+                    
+                    
+                    
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="bmd-label-floating">üye ad</label>
+                            @Html.DropDownListFor(x => x.Member_Id, (List<SelectListItem>)ViewBag.v1, new { @class = "form-control" })
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="bmd-label-floating">kitap adı </label>
+                            @Html.DropDownListFor(x => x.Book_Id, (List<SelectListItem>)ViewBag.v2, new { @class = "form-control" })
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="bmd-label-floating"></label>
+                            @Html.TextBoxFor(x => x.LoanedTime,  new { @class = "form-control" })
+                        </div>
+                    </div>
+                </div>
+
+                    <button type="submit" class="btn btn-primary pull-right">Add Book</button>
+                    <div class="clearfix"></div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

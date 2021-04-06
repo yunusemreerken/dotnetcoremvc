@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Library.Data.Models.Member>
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+@foreach (var item in Model)
+{
+    @item.Telephone
+}

@@ -1,0 +1,29 @@
+﻿@model Library.Data.Models.Book
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Views/Shared/_SiteLayout.cshtml";
+}
+
+<div id="templatemo_content_right">
+
+    <h1>@Model.BookName <span>(@Model.Author)</span></h1>
+    <div class="image_panel"><img src="@Model.CoverImage" alt="CSS Template" width="100" height="150" /></div>
+    <h2>cilt Sayısı : @Model.Cilt</h2>
+    <ul>
+        <li>Yayın Evi <a href="#">@Model.PublisherName</a></li>
+        <li>@Model.CoverType</li>
+        <li>Fiyat : @Model.Price</li>
+        <li>ISBN No : @Model.BookId </li>
+    </ul>
+
+    kitap içeriği ekle
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec dui. Donec nec neque ut quam sodales feugiat. Nam sodales, pede vel dapibus lobortis, ipsum diam molestie risus, a vulputate risus nisl pulvinar lacus.</p>
+
+    <p>Donec at arcu. Nunc aliquam, dolor vitae sollicitudin lacinia, nibh orci sagittis diam, dignissim sodales dui erat nec eros. Fusce quis enim. Aenean eleifend, neque hendrerit elementum sodales, odio erat sagittis quam, sed tempor orci magna vitae tellus. Proin dui mauris, tempor eget, pulvinar sed, pretium sit amet, dui. Proin vulputate justo et quam.</p>
+
+    <p>In fermentum, eros ac tincidunt aliquam, elit velit semper nunc, a tincidunt orci lectus a arcu. Nullam commodo, arcu non facilisis imperdiet, felis lectus tempus felis, vitae volutpat augue ante quis leo. Aliquam tristique dolor ac odio. Sed consectetur, lacus et dictum tristique, odio neque elementum ante, nec eleifend leo dolor vel tortor.</p>
+
+
+
+</div> <!-- end of content right -->

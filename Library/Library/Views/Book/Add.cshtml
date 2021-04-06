@@ -1,0 +1,81 @@
+﻿@model Library.Data.Models.Book
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header card-header-primary">
+                <h4 class="card-title">Add Book</h4>
+            </div>
+            <div class="card-body">
+                @using (Html.BeginForm("Add", "Book", FormMethod.Post))
+                {
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Book Name</label>
+                                @Html.TextBoxFor(x => x.BookName, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Author</label>
+                                @Html.TextBoxFor(x => x.Author, new { @class = "form-control" })
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Publisher Name</label>
+                                @Html.TextBoxFor(x => x.PublisherName, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Cover Type</label>
+                                @Html.TextBoxFor(x => x.CoverType, new { @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Price</label>
+                                @Html.TextBoxFor(x => x.Price, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Cover Image</label>
+                                @Html.TextBoxFor(x => x.CoverImage, new { @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Cilt</label>
+                                @Html.TextBoxFor(x => x.Cilt, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Category </label>
+                                @Html.DropDownListFor(x => x.CategoryId, (List<SelectListItem>)ViewBag.v1, new { @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary pull-right">Add Book</button>
+                    <div class="clearfix"></div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

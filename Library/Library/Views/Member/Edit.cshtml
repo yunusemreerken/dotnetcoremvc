@@ -1,0 +1,68 @@
+﻿@model Library.Data.Models.Member
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header card-header-primary">
+                <h4 class="card-title">Update Member</h4>
+            </div>
+            <div class="card-body">
+                @using (Html.BeginForm("Update", "Member", FormMethod.Post))
+                {
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Id</label>
+
+                                @Html.TextBoxFor(x => x.Member_Id, new { @class = "form-control disabled" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Name</label>
+
+                                @Html.TextBoxFor(x => x.Member_Name, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">E-mail</label>
+                                @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Telephone</label>
+                                @Html.TextBoxFor(x => x.Telephone, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Image</label>
+                                @Html.TextBoxFor(x => x.Image, new { @class = "form-control" })
+                            </div>
+                        </div>
+
+                    </div>
+                    
+
+
+
+                    <button class="btn btn-primary pull-right">Update</button>
+                    <div class="clearfix"></div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

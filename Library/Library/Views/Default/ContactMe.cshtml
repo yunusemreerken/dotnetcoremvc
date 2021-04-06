@@ -1,0 +1,57 @@
+﻿@section ContactMe {
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="~/book-store/css/contactMe.css" rel="stylesheet" />
+}
+@model Library.Data.Models.Message
+@{
+    ViewData["Title"] = "ContactMe";
+    Layout = "~/Views/Shared/_SiteLayout.cshtml";
+}
+
+
+<div class="col-md-12 ">
+    <div class="well well-sm">
+        @using (Html.BeginForm("MessageSubmit", "Default", FormMethod.Post))
+        {
+            <fieldset>
+                <legend class="text-center">Contact us</legend>
+
+                <!-- Name input-->
+                <div class="form-group">
+                    <label class="col-md-3 control-label color" for="name">Name</label>
+                    <div class="col-md-9">
+                        @Html.TextBoxFor(x => x.Name, new { @class = "form-control", @placeholder = "Your name", @id = "name" })
+
+
+
+                    </div>
+                </div>
+
+                <!-- Email input-->
+                <div class="form-group">
+                    <label class="col-md-3 control-label color" for="email">Your E-mail</label>
+                    <div class="col-md-9">
+                        @Html.TextBoxFor(x => x.Email, new { @class = "form-control", @placeholder = "Your E-mail", @id = "email" })
+                    </div>
+                </div>
+
+                <!-- Message body -->
+                <div class="form-group">
+                    <label class="col-md-3 control-label color" for="message">Your message</label>
+                    <div class="col-md-9">
+                        @Html.TextAreaFor(x => x.YourMessage, new { @class = "form-control", @placeholder = "Please enter your message here...",@rows = "5", @id = "message" })
+                    </div>
+                </div>
+
+                <!-- Form actions -->
+                <div class="form-group">
+                    <div class="col-md-12 text-right">
+                        <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                    </div>
+                </div>
+            </fieldset>
+        }
+        </div>
+</div>
