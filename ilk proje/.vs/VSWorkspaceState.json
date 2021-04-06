@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\first-project",
+    "\\first-project\\bin\\Release",
+    "\\first-project\\Views",
+    "\\first-project\\Views\\Shared",
+    "\\first-project\\wwwroot",
+    "\\first-project\\wwwroot\\css"
+  ],
+  "SelectedNode": "\\first-project\\Views\\Shared\\Error.cshtml",
+  "PreviewInSolutionExplorer": false
+}

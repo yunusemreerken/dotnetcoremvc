@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MyAsus\\source\\repos\\CoreAndFood\\CoreAndFood\\CoreAndFood.csproj": {}
+    "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\CoreAndFood\\CoreAndFood\\CoreAndFood.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MyAsus\\source\\repos\\CoreAndFood\\CoreAndFood\\CoreAndFood.csproj": {
+    "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\CoreAndFood\\CoreAndFood\\CoreAndFood.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MyAsus\\source\\repos\\CoreAndFood\\CoreAndFood\\CoreAndFood.csproj",
+        "projectUniqueName": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\CoreAndFood\\CoreAndFood\\CoreAndFood.csproj",
         "projectName": "CoreAndFood",
-        "projectPath": "C:\\Users\\MyAsus\\source\\repos\\CoreAndFood\\CoreAndFood\\CoreAndFood.csproj",
+        "projectPath": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\CoreAndFood\\CoreAndFood\\CoreAndFood.csproj",
         "packagesPath": "C:\\Users\\MyAsus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MyAsus\\source\\repos\\CoreAndFood\\CoreAndFood\\obj\\",
+        "outputPath": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\CoreAndFood\\CoreAndFood\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MyAsus\\AppData\\Roaming\\NuGet\\NuGet.Config",

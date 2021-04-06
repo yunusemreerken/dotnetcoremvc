@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GdjHj9iWtiKVyvwIRKC5l1uVp4+0DKuDHVG4RevXLPrCc/DyIjmXSRYbMxi9wNGXwGi+CPfwRXbPUDl1PN8vrA==",
+  "dgSpecHash": "5h5tj2A8te1q3EJVNlKzbCNEbXIMyQ7b5E3bxzHr7CK9cXi2ZZLP/JKBc47+c/E2mNIAHEMG0hXbAv60cP10Ow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MyAsus\\source\\repos\\CoreAndFood\\CoreAndFood\\CoreAndFood.csproj",
+  "projectFilePath": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\CoreAndFood\\CoreAndFood\\CoreAndFood.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MyAsus\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\MyAsus\\.nuget\\packages\\microsoft.aspnetcore\\2.1.7\\microsoft.aspnetcore.2.1.7.nupkg.sha512",

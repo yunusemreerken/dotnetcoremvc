@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LAJ5/hPZp20pTXbvc8xWBcsnGYoFL0TpQOmMxhI4n9wnqRBa+gqeRqE1ADC6+ghih3i85HYueE7XDw2iY9vRqw==",
+  "dgSpecHash": "s09ni+SK1iRDDVJyyL367lZcftmgO4krvU1lPXuU5F0XxNMX3Dny1wYNHfRkiznGxBBbPWcCWyB+pmJpF1ivng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MyAsus\\source\\repos\\CoreDepartman\\CoreDepartman\\CoreDepartman.csproj",
+  "projectFilePath": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\CoreDepartman\\CoreDepartman\\CoreDepartman.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MyAsus\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\MyAsus\\.nuget\\packages\\microsoft.aspnetcore\\2.1.7\\microsoft.aspnetcore.2.1.7.nupkg.sha512",

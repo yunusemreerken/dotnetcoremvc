@@ -13,8 +13,6 @@ namespace CoreAndFood.Controllers
 {
     public class DefaultController : Controller
     {
-        CategoryRepository categoryRepository = new CategoryRepository();
-        FoodRepository foodRepository = new FoodRepository();
         [AllowAnonymous]
         public IActionResult Index()
         {
@@ -23,9 +21,8 @@ namespace CoreAndFood.Controllers
         [AllowAnonymous]
         public IActionResult CategoryDetails(int id)
         {
-            var categoryId = categoryRepository.TGet(id).CategoryId;
-            var foodlist = foodRepository.TList().Where(x => x.CategoryId == categoryId).ToList();                 
-            return View(foodlist);
+            ViewBag.id = id;
+            return View();
         }
     }
 }

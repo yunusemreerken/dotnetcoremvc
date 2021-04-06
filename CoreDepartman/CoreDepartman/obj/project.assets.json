@@ -12658,11 +12658,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MyAsus\\source\\repos\\CoreDepartman\\CoreDepartman\\CoreDepartman.csproj",
+      "projectUniqueName": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\CoreDepartman\\CoreDepartman\\CoreDepartman.csproj",
       "projectName": "CoreDepartman",
-      "projectPath": "C:\\Users\\MyAsus\\source\\repos\\CoreDepartman\\CoreDepartman\\CoreDepartman.csproj",
+      "projectPath": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\CoreDepartman\\CoreDepartman\\CoreDepartman.csproj",
       "packagesPath": "C:\\Users\\MyAsus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MyAsus\\source\\repos\\CoreDepartman\\CoreDepartman\\obj\\",
+      "outputPath": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\CoreDepartman\\CoreDepartman\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MyAsus\\AppData\\Roaming\\NuGet\\NuGet.Config",
