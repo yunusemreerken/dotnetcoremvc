@@ -5,8 +5,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Library.Repositories;
 using Library.Data.Models;
+using Microsoft.AspNetCore.Authorization;
+
 namespace Library.Controllers
 {
+    [AllowAnonymous]
     public class DefaultController : Controller
     {
         public IActionResult Index()
@@ -50,6 +53,7 @@ namespace Library.Controllers
             {
                 return View(bookRepository.List(x => x.BookName.Contains(p)));
             }
+           
             return View(bookRepository.Tlist());
         }
        

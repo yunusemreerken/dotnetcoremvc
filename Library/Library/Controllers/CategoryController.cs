@@ -5,19 +5,29 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Library.Data.Models;
+using Library.Data;
 
 namespace Library.Controllers
 {
     public class CategoryController : Controller
     {
         CategoryRepository categoryRepository = new CategoryRepository();
-        public IActionResult Index(string p)
+
+
+        public IActionResult Index(/*string p*/)
         {
-            if (!string.IsNullOrEmpty(p))
-            {
-                return View(categoryRepository.List(x => x.CategoryName == p));
-            }
+            //if (!string.IsNullOrEmpty(p))
+            //{
+            //    return View(categoryRepository.List(x => x.CategoryName == p));
+            //}
             return View(categoryRepository.Tlist());
+        }
+        [HttpPost]
+        public IActionResult Index2(CategorySearch categorySearch)
+        {
+            var business = new ProductBusinessLogic();
+            var model = business.GetProducts(categorySearch);
+            return View("Index",model);
         }
         [HttpGet]
         public IActionResult Add()
@@ -53,5 +63,6 @@ namespace Library.Controllers
             categoryRepository.TUpdate(x);
             return RedirectToAction("Index");
         }
+
     }
 }

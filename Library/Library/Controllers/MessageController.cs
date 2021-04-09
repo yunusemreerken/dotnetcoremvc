@@ -5,9 +5,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Library.Repositories;
 using Library.Data.Models;
-
+using Microsoft.AspNetCore.Authorization;
 namespace Library.Controllers
 {
+    [AllowAnonymous]
     public class MessageController : Controller
     {
         public IActionResult Index()

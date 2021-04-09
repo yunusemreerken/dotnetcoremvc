@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MyAsus\\source\\repos\\Library\\Library\\Library.csproj": {}
+    "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\Library\\Library\\Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MyAsus\\source\\repos\\Library\\Library\\Library.csproj": {
+    "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\Library\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MyAsus\\source\\repos\\Library\\Library\\Library.csproj",
+        "projectUniqueName": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\Library\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "C:\\Users\\MyAsus\\source\\repos\\Library\\Library\\Library.csproj",
+        "projectPath": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\Library\\Library\\Library.csproj",
         "packagesPath": "C:\\Users\\MyAsus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MyAsus\\source\\repos\\Library\\Library\\obj\\",
+        "outputPath": "C:\\Users\\MyAsus\\source\\repos\\dotnetcoremvc\\Library\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MyAsus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[2.1.1, )",
               "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.1.1, )"
             },
             "Microsoft.AspNetCore.Mvc": {
               "target": "Package",

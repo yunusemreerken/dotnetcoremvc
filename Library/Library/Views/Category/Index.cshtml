@@ -4,6 +4,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+
 <div class="row">
     <div class="col-md-12">
         <div class="card card-plain">
@@ -11,13 +12,27 @@
                 <h4 class="card-title mt-0"> Category Operations</h4>
             </div>
             <div class="form-search">
-                @using (Html.BeginForm())
+                @using (Html.BeginForm("Index2", "Category", FormMethod.Post))
                 {
-                    <p>
-                        Search : @Html.TextBox("p")
-                        <input type="submit" value="Find" />
-                    </p>
-                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Category Name</label>
+                                @Html.TextBox("CategoryName")
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Description</label>
+                                @Html.TextBox("CategoryDescription")
+                            </div>
+                        </div>
+
+                    </div>
+                        <button type="submit" class="btn btn-primary pull-right">Search</button>
+                    <div class="clearfix"></div>
+
+
                 }
             </div>
             <div class="card-body">
@@ -48,7 +63,7 @@
                                 </th>
                             </tr>
                         </thead>
-                        <tbody class="tbody-image">
+                        <tbody class="tbody-image" id="deneme">
                             @foreach (var item in Model)
                             {
                                 <tr>
@@ -62,12 +77,12 @@
                                         @item.CategoryDescription
                                     </td>
                                     <td>
-                                       YAKINDA
+                                        YAKINDA
                                     </td>
                                     <td>
                                         @item.Status
                                     </td>
-                                    
+
                                     <td class="td-actions text-right">
                                         <button type="button" rel="tooltip" title="" class="btn btn-primary btn-link btn-sm" data-original-title="Edit">
                                             <a href="/Category/Edit/@item.CategoryId"><i class="material-icons">edit</i></a>
@@ -86,7 +101,7 @@
                                     </td>
                                 </tr>
 
-                                }
+                            }
 
 
                         </tbody>

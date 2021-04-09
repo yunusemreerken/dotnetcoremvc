@@ -4,6 +4,7 @@
     Layout = "~/Views/Shared/_SiteLayout.cshtml";
     int x = 0;
 }
+
 <div class="form-search">
     @using (Html.BeginForm())
     {
@@ -11,9 +12,9 @@
             Search : @Html.TextBox("p")
             <input type="submit" value="Find" />
         </p>
-
     }
 </div>
+
 
 
 
@@ -44,3 +45,4 @@
 
 
 }
+

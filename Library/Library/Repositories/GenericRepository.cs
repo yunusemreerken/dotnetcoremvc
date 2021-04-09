@@ -45,8 +45,5 @@ namespace Library.Repositories
         {
             return c.Set<T>().Where(filter).ToList();
         }
-
-        //KATEGORİYE GÖRE KİTAP SAYISINI BULALIM.
-
     }
 }

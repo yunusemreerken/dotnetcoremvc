@@ -5,8 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Library.Data.Models;
+using Microsoft.AspNetCore.Authorization;
+
 namespace Library.Controllers
 {
+    [AllowAnonymous]
     public class MemberController : Controller
     {
         MemberRepository memberRepository = new MemberRepository();
