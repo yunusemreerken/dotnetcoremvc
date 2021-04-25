@@ -1,0 +1,18 @@
+﻿1 entity layer
+2 data access layer
+3 business layer : 
+
+4 presentation layer-user interface
+
+
+----
+başlıklar(tablo)(1)
+
+id
+name
+date
+author
+
+-----
+crud ve filter(2)
+işlemleri data access layer da yapılır 
